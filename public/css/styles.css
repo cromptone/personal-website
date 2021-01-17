@@ -3,31 +3,31 @@
 0% {
     transform: rotate(0deg);
   }
-  
+
 15% {
     transform: rotate(1deg);
   }
-  
+
 20% {
     transform: rotate(-1deg);
   }
-  
+
 30% {
     transform: rotate(2deg);
   }
-  
+
 70% {
     transform: rotate(-2deg);
   }
-  
+
 75% {
     transform: rotate(1deg);
   }
-  
+
 85% {
     transform: rotate(-1deg);
   }
-  
+
 100% {
     transform: rotate(0deg);
   }
@@ -35,6 +35,8 @@
 }
 
 body {
+  margin: 0px;
+  background-attachment: fixed;
   background-color: #0f1418;
   color: salmon;
   font-family: Roboto, sans-serif;

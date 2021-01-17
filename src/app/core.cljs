@@ -9,7 +9,7 @@
 
 (defn ^:dev/after-load start
   []
-  (rf/dispatch-sync [:initialize-db])
+  ; (rf/dispatch-sync [:initialize-db])
   (r/render [app]
     (.getElementById js/document "app")))
 
